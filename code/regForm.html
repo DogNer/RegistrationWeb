@@ -10,21 +10,24 @@
 <body class="main">
     <form>
         <div class="container all">
-            <div class="container-two-field">
-                <label class="text-reg">Name</label>
-                <input type="text" name="name" required>
-            </div>
-            <div class="container-two-field">
-                <label class="text-reg">Email</label>
-                <input type="email" name="email" required>
-            </div>
-            <div class="container-two-field">
-                <label class="text-reg">Password</label>
-                <input type="password" name="password" required>
-            </div>
-            <div class="container-two-field">
-                <label class="text-reg">Confirm Password</label>
-                <input type="password" name="confirmPassword" required>
+            <h2>Register</h2>
+            <div class="container-all-field">
+                <div class="container-two-field">
+                    <label class="text-reg" for="name">Name</label>
+                    <input class="field-input" id="name" type="text" name="name" required>
+                </div>
+                <div class="container-two-field">
+                    <label class="text-reg" for="email">Email</label>
+                    <input class="field-input" id="email" type="email" name="email" required>
+                </div>
+                <div class="container-two-field">
+                    <label class="text-reg" for="password">Password</label>
+                    <input class="field-input" id="password" type="password" name="password" required>
+                </div>
+                <div class="container-two-field">
+                    <label class="text-reg" for="passwordConfirm">Confirm Password</label>
+                    <input class="field-input" id="passwordConfirm" type="password" name="confirmPassword" required>
+                </div>
             </div>
             <button id="btnSubmit" type="submit">Register</button>
         </div>

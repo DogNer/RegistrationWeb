@@ -17,7 +17,7 @@
 }
 
 .all{
-    width: 300px;
+    width: fit-content;
     height: fit-content;
     background: #1F1F1F;
 
@@ -74,9 +74,26 @@
 .container-two-field{
     display: flex;
     flex-direction: row;
-    width: 100%;
     justify-content: space-between;
-    margin: 5px;
+    margin: 10px;
+}
+
+.field-input{
+    background: #1f1f1f;
+    margin-left: 5px;
+    border: 0.5px solid #fdfdf4;
+    color: #ffffff;
+    font-family: 'assets/fonts/static/Inter-Bold.ttf', sans-serif;
+}
+
+.field-input:focus{
+    color: #63a655;
+}
+
+.container-all-field{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 .text-reg{
@@ -90,6 +107,22 @@ label{
 
 img{
     border-radius: 50%;
-
     margin: 20px 0;
+}
+
+h2{
+    height: fit-content;
+    color: #ffffff;
+    font-weight: bolder;
+    margin: 5px 0 20px 0;
+}
+
+#btnSubmit{
+    margin: 20px;
+    font-family: 'assets/fonts/static/Inter-Bold.ttf', sans-serif;
+    background: #63a655;
+    border: 1px solid #3b3b3b;
+    padding: 5px 10px;
+    color: white;
+    font-weight: bolder;
 }
